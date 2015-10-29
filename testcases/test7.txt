@@ -1,0 +1,34 @@
+This is an isolated paragraph.
+
+Paragraphs are separated by an empty line.
+
+\begin{q}
+    \begin{p}
+    This is an explicitly declared paragraph.
+    \end{p}
+\end{q}
+
+\begin{p}
+Hello world!
+\end{p}
+
+
+
+\begin{p}
+Hello \bold{blue} world.
+Checkout \link{http://ocaml.org/}{\bold{OCaml}}.
+\end{p}
+
+\begin{v}
+   1  2  3
+A A1 A2 A3
+B B1 B2 B3
+C C1 C2 C3
+\end{v}
+
+\begin{s}
+let count = function
+    | Leaf               -> 0
+    | Node (left, right) -> 1 + count left + count right
+\end{s}
+
