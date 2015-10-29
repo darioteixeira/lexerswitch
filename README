@@ -1,0 +1,38 @@
+=========================================================================
+| README for LexerSwitch                                                |
+|                                                                       |
+| Dario Teixeira <dario.teixeira@nleyten.com>                           |
+=========================================================================
+
+
+1. Overview
+===========
+
+This project consists of a couple of experiments on how to perform
+on-the-fly lexer switching with Menhir.  The directory 'inspection'
+contains the approach based on Menhir's new inspection API, whereas
+'parameterised' contains an approach that relies on Menhir's ability
+to generate parameterised parsers.  The directory 'testcases' contains
+a number of sample test cases for the generated parsers.
+
+
+2. Dependencies
+===============
+
+Both experiments depend on Batteries [1], Menhir [2], and Sedlex [3].
+
+
+3. License
+==========
+
+LexerSwitch is distributed under the terms of the GNU LGPL version 2.1
+(with OCaml linking exception).  See LICENSE file for full license text.
+
+
+References
+==========
+
+[1] http://batteries.forge.ocamlcore.org/
+[2] http://cristal.inria.fr/~fpottier/menhir/
+[3] http://github.com/alainfrisch/sedlex
+

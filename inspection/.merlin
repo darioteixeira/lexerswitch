@@ -1,0 +1,6 @@
+S src
+B _build/**
+PKG batteries
+PKG sedlex
+PKG menhirLib
+FLG -w +a-4-6-9-27-32-40-41-42-44-45-48

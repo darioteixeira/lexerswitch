@@ -1,0 +1,3 @@
+true: use_menhir, package(batteries), package(menhirLib), package(sedlex)
+
+<src>: include

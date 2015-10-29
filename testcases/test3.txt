@@ -1,0 +1,4 @@
+\begin{p}
+Hello \bold{blue} world.
+Checkout \link{http://ocaml.org/}{OCaml}.
+\end{p}
