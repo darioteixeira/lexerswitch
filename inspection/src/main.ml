@@ -42,7 +42,7 @@ let main tokenizer =
         | Rejected ->
             Printf.eprintf "@@@ Rejected\n%!";
             assert false in
-	Incremental.main () |> loop
+	make_position () |> Incremental.main |> loop
     
 
 let () =
