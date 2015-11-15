@@ -56,7 +56,7 @@ let end_marker = [%sedlex.regexp? "\\end", open_marker, ident, close_marker]
 
 let space = [%sedlex.regexp? ' ']
 let newline = [%sedlex.regexp? '\n']
-let eop = [%sedlex.regexp? Star space, newline, Plus (Star space, newline)]
+let eop = [%sedlex.regexp? Star space, newline, Plus (Star space, newline), Star space]
 let escape = [%sedlex.regexp? '\\']
 
 
